@@ -55,7 +55,7 @@ class Translator(QMainWindow):
         self.setStyleSheet("QPlainTextEdit { font-family: Verdana, sans-serif;"
                            " font-size: 18pt;}")
 
-        self.inp.setPlaceholderText("Введите башкирский текст")
+        self.inp.setPlaceholderText("Введите башкирский текст максимальной длинны 100 символов")
         self.outp.setReadOnly(True)
 
         # button settings
